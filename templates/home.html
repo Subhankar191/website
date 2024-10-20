@@ -1,0 +1,107 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    
+  </head>
+  <body>
+    <div class="logo">
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/Indian_Institute_of_Technology%2C_Indore_Logo.png">
+    <h1>WELCOME TO IIT INDORE!</h1>
+    </div>
+    <div class="container">
+    <div class="centered-element">
+    <table border="1">
+      <tr>
+          <th>Course Code</th>
+          <th>Course Title</th>
+          <th>Weekly L-T-P</th>
+          <th>Credits</th>
+      </tr>
+      <tr>
+          <td>ZZ xxx</td>
+          <td>Course-I for Minor Program</td>
+          <td>x-x-x</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>MA 205</td>
+          <td>Complex Analysis</td>
+          <td>3-1-0 (1/2 Sem)</td>
+          <td>2</td>
+      </tr>
+      <tr>
+          <td>MA 207</td>
+          <td>Differential Equations-II</td>
+          <td>3-1-0 (1/2 Sem)</td>
+          <td>2</td>
+      </tr>
+      <tr>
+          <td>CS 201</td>
+          <td>Discrete Mathematical Structures</td>
+          <td>2-1-0</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>CS 203</td>
+          <td>Data Structures and Algorithms</td>
+          <td>2-1-0</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>CS 207N</td>
+          <td>Database and Information Systems</td>
+          <td>2-1-0</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>CS 209</td>
+          <td>Logic Design</td>
+          <td>2-0-2</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>CS 253</td>
+          <td>Data Structures and Algorithms Lab</td>
+          <td>0-0-3</td>
+          <td>1.5</td>
+      </tr>
+      <tr>
+          <td>CS 257</td>
+          <td>Database and Information Systems Lab</td>
+          <td>0-0-3</td>
+          <td>1.5</td>
+      </tr>
+      <tr>
+          <td>CS 2XX</td>
+          <td>Department Elective I</td>
+          <td>x-x-x</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td><strong>Total</strong></td>
+          <td></td>
+          <td><strong>11-4-8</strong></td>
+          <td><strong>22/25</strong></td>
+      </tr>
+  </table>
+</div>
+</div>  
+    <a href="{% url 'logout' %}" class="btn btn-primary">Logout</a>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
